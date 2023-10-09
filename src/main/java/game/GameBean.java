@@ -132,7 +132,7 @@ private int getRandomLineIndexWithEmptyCell(){
 if(!this.hasEmptyCell()){
 return -1;
 }
-List<Integer> indexes = new ArrayList();
+List<Integer> indexes = new ArrayList<Integer>();
 int index = 0;
 for(GameState[] line : this.gameStatus){
 boolean hasEmpty = false;

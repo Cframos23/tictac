@@ -9,10 +9,6 @@ import game.GameBean;
 import game.GameBean.GamePlayer;
 public class GameServlet extends HttpServlet {
 /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-/**
 * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
 * methods.
 *
